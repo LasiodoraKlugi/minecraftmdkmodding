@@ -1,0 +1,8 @@
+#CreativeTab
+itemGroup.modtab=ModVersion1 Tab
+
+#Items
+item.moditem.name=Klugis erstes Item
+
+#Blocks
+tile.modblock.name=Klugis erster Block
