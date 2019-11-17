@@ -2,13 +2,17 @@
 {
   "modid": "modv1",
   "name": "Mod Version 1",
-  "description": "Beschreibung meines Mods.",
+  "description": "Rules:
+  Comment Before Adding Me
+  No required min level
+  Dont Beg
+  Dont Spam Invites",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "https://spinnie.de",
   "updateUrl": "",
   "authorList": ["Lasiodora_Klugi"],
-  "credits": "The Forge and FML guys, for making this example, and ...",
+  "credits": "Klugis erster eigener Mod der funktioniert! :D",
   "logoFile": "assets/modv1/index.png",
   "screenshots": [],
   "dependencies": []
