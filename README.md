@@ -25,6 +25,8 @@ My own block
 Added Features to this mod:
 
 Added Smelting
+    
+    furnace(mod.block + coal -> mod.item)
 
 Added Block property:
 
@@ -41,3 +43,8 @@ Added Block property:
      Drop random(min 1, max 20)
   
      Drop moditem
+     
+Item settings imroved:
+                        
+    Added item right klick(Keine abnutzung bis jetzt!)
+    (mushroom, jump)
