@@ -24,9 +24,15 @@ Added Smelting
 
 Added Block property:
   Hardness
+  
   Resistance
+  
   SoundType
+  
   Harvest Level(pickaxe, iron)
+  
   LightLevel
+  
   Drop random(min 1, max 20)
+  
   Drop moditem
