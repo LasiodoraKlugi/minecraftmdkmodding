@@ -23,16 +23,16 @@ Added Features to this mod:
 Added Smelting
 
 Added Block property:
-  Hardness
+     Hardness
   
-  Resistance
+     Resistance
   
-  SoundType
+     SoundType
   
-  Harvest Level(pickaxe, iron)
+     Harvest Level(pickaxe, iron)
   
-  LightLevel
+     LightLevel
   
-  Drop random(min 1, max 20)
+     Drop random(min 1, max 20)
   
-  Drop moditem
+     Drop moditem
