@@ -19,6 +19,11 @@ Soweit sollte das alles auch am Pc funktionieren.
 Einfach das Projekt einfpgen und run neu configurieren auf das aktuvelle projekt
 Problem beim push zu github -> rejected -> pull ausfürhen
 
+
+bei alex: hat funktioniert nach dem wir in meinem ordner nochmals setupdecompile eclipse ausgeführt haben
+und den command mit gradle siehe readme von forge
+examplemdo mit im workspace war
+
 Aktuelles Forge:
 
 
