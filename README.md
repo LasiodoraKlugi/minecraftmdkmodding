@@ -4,17 +4,21 @@
 
 Added Features to this mod:
 
-Shaped Crafting Rezepte
+Shaped Crafting
 
-Shapeless Crafting Rezepte
+Shapeless Crafting
 
 McMod.info
 
-Creative Tab
+First Creative Tab
 
 My own Item
+   
+    moditem
 
 My own block
+  
+    modBlock
 
 ********************* ~Stand: 18.11
 
@@ -23,6 +27,7 @@ Added Features to this mod:
 Added Smelting
 
 Added Block property:
+
      Hardness
   
      Resistance
