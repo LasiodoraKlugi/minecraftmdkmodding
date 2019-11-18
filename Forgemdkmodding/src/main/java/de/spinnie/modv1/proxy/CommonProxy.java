@@ -2,6 +2,7 @@ package de.spinnie.modv1.proxy;
 
 import de.spinnie.modv1.init.ModBlocks;
 import de.spinnie.modv1.init.ModItems;
+import de.spinnie.modv1.init.ModSmelting;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -18,6 +19,8 @@ public class CommonProxy {
 	}
 
 	public void init(FMLInitializationEvent event) {
+		ModSmelting.init();  
+		
 
 	}
 
