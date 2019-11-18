@@ -1,6 +1,6 @@
 # minecraftmdkmodding
 
--------------- Stand: 18.11
+********************* ~Stand: 25.10
 
 Added Features to this mod:
 
@@ -16,4 +16,17 @@ My own Item
 
 My own block
 
---------------------
+********************* ~Stand: 18.11
+
+Added Features to this mod:
+
+Added Smelting
+
+Added Block property:
+  Hardness
+  Resistance
+  SoundType
+  Harvest Level(pickaxe, iron)
+  LightLevel
+  Drop random(min 1, max 20)
+  Drop moditem
