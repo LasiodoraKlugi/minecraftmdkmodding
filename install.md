@@ -1,6 +1,6 @@
 So fügt man das hier vorgestellte Projekt in Eclipse ein:
 
-Nach dieser Reiheinfolge vorgehen:
+Nach dieser Reihenfolge vorgehen:
 
 Das Projekt runterladen:
 
