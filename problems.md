@@ -16,6 +16,7 @@ Zusätzlich sollte man den Exmaple mod löschen, da dieser noch als 6 Mod beim s
 Soweit sollte das alles auch am Pc funktionieren.
 
 ********************************************************* ~fixed
+
 Einfach das Projekt einfpgen und run neu configurieren auf das aktuvelle projekt
 Problem beim push zu github -> rejected -> pull ausfürhen
 
