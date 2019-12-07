@@ -50,3 +50,10 @@ Item settings imroved:
                         
     Added item right klick(Keine abnutzung bis jetzt!)
     (mushroom, jump)
+
+********************************************************************************************************* ~Stand: 7.12.19
+
+Added new Item Teleport:
+   
+    Teleporting Item (50 Blocks, warnings, maxdamage)
+    
