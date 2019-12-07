@@ -57,3 +57,20 @@ Added new Item Teleport:
    
     Teleporting Item (50 Blocks, warnings, maxdamage)
     
+Added Food:
+     
+    Tobis fetter Burger
+    setAlwaysEdible
+    
+PotionEffect:   
+
+    LEVITATION
+    RESISTANCE
+    GLOWING
+    HUNGER
+
+Entchant effect
+    
+    colour
+
+    
