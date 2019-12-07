@@ -61,16 +61,12 @@ Added Food:
      
     Tobis fetter Burger
     setAlwaysEdible
-    
-PotionEffect:   
-
+    PotionEffect:   
     LEVITATION
     RESISTANCE
     GLOWING
     HUNGER
-
-Entchant effect
-    
+    Entchant effect
     colour
 
     
