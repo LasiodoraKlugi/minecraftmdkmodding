@@ -59,7 +59,8 @@ Added new Item Teleport:
     
 Added Food:
      
-    Tobis fetter Burger
+Tobis fetter Burger:
+    
     setAlwaysEdible
     PotionEffect:   
     LEVITATION
