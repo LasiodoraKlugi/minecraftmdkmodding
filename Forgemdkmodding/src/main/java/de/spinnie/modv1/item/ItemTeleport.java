@@ -33,7 +33,7 @@ public class ItemTeleport extends Item { // Erben von Klasse Item
 		if (!worldIn.isRemote) { // Man ist nicht auf einer Slave World also Client Welt! = also Server Welt! Resourcen sparen
 			RayTraceResult result = rayTrace(playerIn, 50);		//auf 50 blöcke
 			if(result.typeOfHit == Type.MISS) {
-				playerIn.sendStatusMessage(new TextComponentString("\u00A74Du kannst dich nur 50 Blöcke weit porten"), true);
+				playerIn.sendStatusMessage(new TextComponentString("\u00A74Du kannst dich nur 50 Bloecke weit porten"), true);
 				return new ActionResult<ItemStack>(EnumActionResult.FAIL, stack);
 			}
 			BlockPos pos = result.getBlockPos();

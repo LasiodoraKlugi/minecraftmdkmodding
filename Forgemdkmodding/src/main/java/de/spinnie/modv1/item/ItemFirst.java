@@ -15,13 +15,16 @@ public class ItemFirst extends Item {
 
 	public ItemFirst() {
 		setCreativeTab(modv1Tabs.tab);
+		setMaxDamage(42);
 	}
 	
 	@Override
 	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
+		ItemStack stack = playerIn.getHeldItem(handIn);
 		if(!worldIn.isRemote){ //abprüfen welt, immer besser auf dem server ausfürhen
 			worldIn.setBlockState(playerIn.getPosition().down(), Blocks.BROWN_MUSHROOM_BLOCK.getDefaultState());
 			//Bei Rechtsklick wird unter uns ein Pilz Block gesetzt
+			stack.damageItem(1, playerIn);
 		}
 		playerIn.jump(); //kleiner boost nach oben jump edit: muss auf beiden seiten gecallt werden(server,Client)
         return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, playerIn.getHeldItem(handIn));//Animationen

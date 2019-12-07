@@ -1,19 +1,15 @@
 [
 {
   "modid": "modv1",
-  "name": "Mod Version 1",
-  "description": "Rules:
-  Comment Before Adding Me
-  No required min level
-  Dont Beg
-  Dont Spam Invites",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "name": "Treachery's Steel Bolter by Klugi",
+  "description": "With this mod you can expand the game with some cool effects and objects.",
+  "version": "1.0.4",
+  "mcversion": "1.12.2",
   "url": "https://spinnie.de",
-  "updateUrl": "",
+  "updateUrl": "https://files.minecraftforge.net/",
   "authorList": ["Lasiodora_Klugi"],
-  "credits": "Super Duper Mod",
-  "logoFile": "assets/modv1/index.png",
+  "credits": "Dieser Mod hat super Features",
+  "logoFile": "assets/modv1/techrootbuild.png",
   "screenshots": [],
   "dependencies": []
 }

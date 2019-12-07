@@ -2,11 +2,11 @@
 itemGroup.modtab=ModVersion1 Tab
 
 #Items
-item.moditem.name=Klugis erstes Item
+item.moditem.name=Sonderbare Konsole
 
 item.teleport.name=Teleport
 
 item.fetterburger.name=Tobis Burger
 
 #Blocks
-tile.modblock.name=Klugis erster Block
+tile.modblock.name=Pyrit Gestein
