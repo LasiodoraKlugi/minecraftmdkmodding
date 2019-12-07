@@ -19,7 +19,7 @@ public class BlockFirst extends Block {
 		setResistance(90F);
 		setSoundType(SoundType.SNOW);
 		setHarvestLevel("pickaxe", 2);  //Harvest level nachsehen mit (F3)strg hovern drücken und klicken auf Harvest
-		setLightLevel(0.8F);            // strg+shift+h open search menue and search for ItemTool -> List with items(pickusw)
+		setLightLevel(0.8F);			// strg+shift+h open search menue and search for ItemTool -> List with items(pickusw)
 	}
 
 	@Override

@@ -13,11 +13,14 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class ModBlocks {
 
 	public static final BlockFirst modblock = new BlockFirst();
+	
+	
 
 	public static void init() {
 		setName(modblock, "modblock");
-	}
 
+	}
+	
 	@SubscribeEvent
 	public static void register(RegistryEvent.Register<Block> event) {
 		IForgeRegistry<Block> registry = event.getRegistry();

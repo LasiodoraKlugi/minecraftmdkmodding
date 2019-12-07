@@ -12,6 +12,7 @@ public class ModModels {
 	public static void register(ModelRegistryEvent event) {
 		register(ModItems.moditem);
 		register(Item.getItemFromBlock(ModBlocks.modblock)); // bekommme Item block
+		register(ModItems.teleport);
 	}
 
 	private static void register(Item item) {
