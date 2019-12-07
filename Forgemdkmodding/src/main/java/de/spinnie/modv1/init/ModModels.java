@@ -13,6 +13,7 @@ public class ModModels {
 		register(ModItems.moditem);
 		register(Item.getItemFromBlock(ModBlocks.modblock)); // bekommme Item block
 		register(ModItems.teleport);
+		register(ModItems.fetterburger);
 	}
 
 	private static void register(Item item) {

@@ -6,5 +6,7 @@ item.moditem.name=Klugis erstes Item
 
 item.teleport.name=Teleport
 
+item.fetterburger.name=Tobis Burger
+
 #Blocks
 tile.modblock.name=Klugis erster Block

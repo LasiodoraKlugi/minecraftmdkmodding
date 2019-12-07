@@ -1,6 +1,7 @@
 package de.spinnie.modv1.init;
 
 import de.spinnie.modv1.ModConstants;
+import de.spinnie.modv1.item.ItemFetterBurger;
 import de.spinnie.modv1.item.ItemFirst;
 import de.spinnie.modv1.item.ItemTeleport;
 import net.minecraft.item.Item;
@@ -14,10 +15,13 @@ public class ModItems {
 	public static final ItemFirst moditem = new ItemFirst();
 	
 	public static final ItemTeleport teleport = new ItemTeleport();
+	
+	public static final ItemFetterBurger fetterburger = new ItemFetterBurger();
 
 	public static void init() {
 		setName(moditem, "moditem");
 		setName(teleport, "teleport");
+		setName(fetterburger, "fetterburger");
 	}
 
 	@SubscribeEvent
@@ -26,6 +30,8 @@ public class ModItems {
 		registry.register(moditem);
 		
 		registry.register(teleport);
+		
+		registry.register(fetterburger);
 	}
 
 	public static void setName(Item item, String name) {
