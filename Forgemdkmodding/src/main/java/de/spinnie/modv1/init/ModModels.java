@@ -25,6 +25,8 @@ public class ModModels {
 	    register(ModItems.pinkChestplate);
 	    register(ModItems.pinkLeggings);
 	    register(ModItems.pinkBoots);
+	    
+	    register(Item.getItemFromBlock(ModBlocks.modblockfacing));
 	}
 
 	private static void register(Item item) {

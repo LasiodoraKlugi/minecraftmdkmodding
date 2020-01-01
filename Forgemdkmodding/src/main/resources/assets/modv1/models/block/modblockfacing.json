@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "modv1:blocks/modblockfrontal",
+        "down": "modv1:blocks/modblock",
+        "up": "modv1:blocks/modblock",
+        "north": "modv1:blocks/modblockfrontal",
+        "east": "modv1:blocks/modblock",
+        "south": "modv1:blocks/modblock",
+        "west": "modv1:blocks/modblock"
+    }
+}
