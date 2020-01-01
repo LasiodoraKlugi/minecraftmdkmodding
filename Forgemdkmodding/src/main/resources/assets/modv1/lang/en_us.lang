@@ -8,5 +8,16 @@ item.teleport.name=Teleport
 
 item.fetterburger.name=Tobis Burger
 
+item.treacherys_axe.name=Baumfaeller
+item.treacherys_hoe.name=Hacke
+item.treacherys_pickaxe.name=Stein Hacke
+item.treacherys_spade.name=Spaten
+item.treacherys_sword.name=Klugis Schwert
+
+item.pink_helmet.name=Pinker Helm
+item.pink_chestplate.name=Pinker Brustpanzer
+item.pink_leggings.name=Pinke Beinrüstung
+item.pink_boots.name=Pinke Stahlkappen Schuhe
+
 #Blocks
 tile.modblock.name=Pyrit Gestein

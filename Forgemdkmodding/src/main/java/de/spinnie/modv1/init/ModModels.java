@@ -14,6 +14,17 @@ public class ModModels {
 		register(Item.getItemFromBlock(ModBlocks.modblock)); // bekommme Item block
 		register(ModItems.teleport);
 		register(ModItems.fetterburger);
+		
+	    register(ModItems.treacherysSword);
+	    register(ModItems.treacherysPickaxe);
+	    register(ModItems.treacherysAxe);
+	    register(ModItems.treacherysSpade);
+	    register(ModItems.treacherysHoe);
+	    
+	    register(ModItems.pinkHelmet);
+	    register(ModItems.pinkChestplate);
+	    register(ModItems.pinkLeggings);
+	    register(ModItems.pinkBoots);
 	}
 
 	private static void register(Item item) {
