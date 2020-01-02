@@ -1,19 +1,25 @@
 package de.spinnie.modv1.block;
 
+import de.spinnie.modv1.ModConstants;
 import de.spinnie.modv1.init.modv1Tabs;
+import de.spinnie.modv1.tileentity.TileEntityModFacing;
 import net.minecraft.block.Block;
+import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
-public class BlockModFacing extends Block{
+public class BlockModFacing extends Block implements ITileEntityProvider{
 
 	public static final PropertyDirection FACING = PropertyDirection.create("facing");
 	
@@ -21,6 +27,7 @@ public class BlockModFacing extends Block{
 		super(Material.ROCK);
         setCreativeTab(modv1Tabs.tab);
         setDefaultState(getDefaultState().withProperty(FACING, EnumFacing.NORTH));
+        GameRegistry.registerTileEntity(TileEntityModFacing.class, new ResourceLocation(ModConstants.MODID, "modblockfacing"));
 	}
 	
 	@Override
@@ -57,5 +64,10 @@ public class BlockModFacing extends Block{
         	 return true;
          }
 		return false;
-     }	
+     }
+
+	@Override
+	public TileEntity createNewTileEntity(World worldIn, int meta) {
+		return new TileEntityModFacing();
+	}	
 }

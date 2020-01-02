@@ -26,4 +26,4 @@ public class RedstoneUtil {
 	return powered;
 	}
 	
-}
+} 
