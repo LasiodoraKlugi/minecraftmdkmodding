@@ -10,6 +10,7 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 public class BlockModFacing extends Block{
@@ -36,6 +37,7 @@ public class BlockModFacing extends Block{
 	}
 	 //Übersetzung Int -> blockstate und zurück
 	// int wieder in enumfacing übersetzt
+	
 	@Override
 	public IBlockState getStateFromMeta(int meta) {
 		return getDefaultState().withProperty(FACING, EnumFacing.getFront(meta));
@@ -45,6 +47,15 @@ public class BlockModFacing extends Block{
     protected BlockStateContainer createBlockState() {
     	return new BlockStateContainer(this, FACING);    //Block weiß das er property hat
     }
-	
-	
+     
+     @Override
+    public boolean canConnectRedstone(IBlockState state, IBlockAccess world, BlockPos pos, EnumFacing side) {
+         if(side == null) {  //Muss gecheckt werden ob die richtigen seiten
+        	 return true;
+         }
+         if(state.getValue(FACING) != side.getOpposite()) { //muss die richtige Seite sein
+        	 return true;
+         }
+		return false;
+     }	
 }
