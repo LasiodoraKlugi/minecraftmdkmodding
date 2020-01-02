@@ -1,5 +1,27 @@
 {
     "variants": {
-        "normal": { "model": "modv1:modblockfacing" }
+        "facing=north": {
+            "model": "modv1:modblockfacing"
+        },
+        "facing=south": {
+            "model": "modv1:modblockfacing",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "modv1:modblockfacing",
+            "y": 270
+        },
+        "facing=east": {
+            "model": "modv1:modblockfacing",
+            "y": 90
+        },
+        "facing=up": {
+            "model": "modv1:modblockfacing",
+            "x": 270
+        },
+        "facing=down": {
+            "model": "modv1:modblockfacing",
+            "x": 90
+        }
     }
 }
