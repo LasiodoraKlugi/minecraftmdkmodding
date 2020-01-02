@@ -1,6 +1,9 @@
 package de.spinnie.modv1.tileentity;
 
+import java.awt.List;
+
 import de.spinnie.modv1.block.BlockModFacing;
+import de.spinnie.modv1.init.ModItems;
 import de.spinnie.modv1.util.RedstoneUtil;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Items;
@@ -15,6 +18,7 @@ import net.minecraftforge.common.model.animation.CapabilityAnimation;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemHandlerHelper;
+import scala.Array;
 
 public class TileEntityModFacing extends TileEntity implements ITickable {
 	
@@ -33,7 +37,7 @@ public class TileEntityModFacing extends TileEntity implements ITickable {
         	 return;
          }
 		
-         if(cooldown <50) {   //50Ticks = 2,5sek
+         if(cooldown <1000) {   //50Ticks = 2,5sek
         	 cooldown++;
         	 return;
          }
@@ -56,12 +60,19 @@ public class TileEntityModFacing extends TileEntity implements ITickable {
         	 return;
          }
          IItemHandler handler = tileentity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, facing.getOpposite());
-         ItemHandlerHelper.insertItemStacked(handler, new ItemStack(Items.STICK, 2), false);  //Stick kann reingelegt werden! immer 2!
+         ItemHandlerHelper.insertItemStacked(handler, new ItemStack(ModItems.fetterburger, 2), false);  //Stick kann reingelegt werden! immer 2!
+         ItemHandlerHelper.insertItemStacked(handler, new ItemStack(ModItems.treacherysSword, 1), false);
+         ItemHandlerHelper.insertItemStacked(handler, new ItemStack(ModItems.moditem, 3), false);
+         ItemHandlerHelper.insertItemStacked(handler, new ItemStack(ModItems.pinkBoots, 1), false);
+         ItemHandlerHelper.insertItemStacked(handler, new ItemStack(ModItems.pinkLeggings, 1), false);
+         ItemHandlerHelper.insertItemStacked(handler, new ItemStack(ModItems.pinkChestplate, 1), false);
+         ItemHandlerHelper.insertItemStacked(handler, new ItemStack(ModItems.pinkHelmet, 1), false);
+         ItemHandlerHelper.insertItemStacked(handler, new ItemStack(ModItems.treacherysPickaxe, 2), false);
          
-         //Information zu dieser Klasse:
          //somit wird jede 2,5 Sek (50Ticks), wenn eine Kiste auf der Facing Seite des Blocks steht, mit jeweils 2 Sticks befüllt!
          //Grundlegend hierfür ist aber das der Block an der nicht Facing Seite ein Redstone Signal angelegt bekommt!
-         //Dreht man mithilfe des Wrenchs den Facing Block, so gibt dieser nur an der Facing Seite die Sticks aus!
+         //Dreht man mithilfe des Wrenchs den Facing Block, so gibt dieser nur an der Facing S
+         
       
 	}
 	
