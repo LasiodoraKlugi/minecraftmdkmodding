@@ -27,6 +27,8 @@ public class ModModels {
 	    register(ModItems.pinkBoots);
 	    
 	    register(Item.getItemFromBlock(ModBlocks.modblockfacing));
+	    
+	    register(ModItems.wrench);
 	}
 
 	private static void register(Item item) {

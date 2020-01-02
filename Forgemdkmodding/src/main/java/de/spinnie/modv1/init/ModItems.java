@@ -10,6 +10,7 @@ import de.spinnie.modv1.item.ItemTreacheryHoe;
 import de.spinnie.modv1.item.ItemTreacheryPickaxe;
 import de.spinnie.modv1.item.ItemTreacherySpade;
 import de.spinnie.modv1.item.ItemTreacherySword;
+import de.spinnie.modv1.item.ItemWrench;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -43,6 +44,9 @@ public class ModItems {
     public static final ItemPinkArmor pinkLeggings = new ItemPinkArmor(pinkArmorMaterial, 2, EntityEquipmentSlot.LEGS); 
     public static final ItemPinkArmor pinkBoots = new ItemPinkArmor(pinkArmorMaterial, 3, EntityEquipmentSlot.FEET);
     
+    
+   public static final ItemWrench wrench = new ItemWrench();
+    
 	
 	public static void init() {
 		setName(moditem, "moditem");
@@ -59,6 +63,8 @@ public class ModItems {
 		setName(pinkChestplate,"pink_chestplate");
 		setName(pinkLeggings,"pink_leggings");
 		setName(pinkBoots,"pink_boots");
+		
+		setName(wrench,"wrench");
 	}
 
 	@SubscribeEvent
@@ -73,6 +79,8 @@ public class ModItems {
 		registry.registerAll(treacherysSword, treacherysPickaxe, treacherysAxe, treacherysSpade, treacherysHoe);
 		
 		registry.registerAll(pinkHelmet, pinkChestplate, pinkLeggings, pinkBoots);
+		
+		registry.register(wrench);
 	}
 
 	public static void setName(Item item, String name) {

@@ -19,6 +19,8 @@ item.pink_chestplate.name=Pinker Brustpanzer
 item.pink_leggings.name=Pinke Beinrüstung
 item.pink_boots.name=Pinke Stahlkappen Schuhe
 
+item.wrench.name=TF2 Rotation Wrench
+
 #Blocks
 tile.modblock.name=Pyrit Gestein
 tile.modblockfacing.name=Platin Block
