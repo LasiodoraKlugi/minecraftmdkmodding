@@ -179,5 +179,10 @@ https://github.com/LasiodoraKlugi/Treachery-s-Steel-Bolter-by-Klugi
 
 Version 1.0.7 Ends
 
-********************************************************************************************************* ~Stand: 2.1.2020      
+********************************************************************************************************* ~Stand: 2.1.2020  
+Version 1.0.8 Starts
+
+Added crafting recipes:
+
+    snow_shaped (3xsnow, 1xpacked_ice, 1xobsidian)
      
