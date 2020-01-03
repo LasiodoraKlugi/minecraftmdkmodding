@@ -131,6 +131,7 @@ World Block Generation:
  Version: 1.0.5 Ends
 
 ********************************************************************************************************* ~Stand: 29.12.2020
+
 Version 1.0.5.1 Starts
 
 Added new Features:
@@ -141,7 +142,9 @@ ModBlockFacing:
      Mehr Kommentare dazu beim code.
  
 Version 1.0.5.1 Ends
+
 ********************************************************************************************************* ~Stand: 1.1.2020
+
 Version 1.0.6 Starts
 
 Added new Features:
@@ -151,7 +154,9 @@ TF2 Rotation Wrench(with TF2 skin):
     Kann Blöcke drehen! Mehr dazu im Code.
     
 Version 1.0.6 Ends
+
 ********************************************************************************************************* ~Stand: 2.1.2020 
+
 Version 1.0.7 Starts
 
 Added new Features:
@@ -168,8 +173,11 @@ Tile Entity:
      
 Changed GUI Creative Tab Texture
 
-Alle Versionen zum Download zur Verfügung gestellt unter: https://github.com/LasiodoraKlugi/Treachery-s-Steel-Bolter-by-Klugi
+Alle Versionen zum Download zur Verfügung gestellt unter:
+
+https://github.com/LasiodoraKlugi/Treachery-s-Steel-Bolter-by-Klugi
 
 Version 1.0.7 Ends
+
 ********************************************************************************************************* ~Stand: 2.1.2020      
      
