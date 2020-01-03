@@ -184,5 +184,15 @@ Version 1.0.8 Starts
 
 Added crafting recipes:
 
-    snow_shaped (3xsnow, 1xpacked_ice, 1xobsidian)
+    snow_shaped (3xsnow, 1xpacked_ice, 1xobsidian) -> 1xPyrit Gestein
+    redstone_snow_shapeless (3xredstone, 1xcomparator, 1xPyritGestein) -> 1xRedstone Snow(Modblockfacing)
+    treachery_sword_shaped (1xSonderbare Konsole, 1xdiamond, 1xteleport) -> 1xTreacherys Sword
+    
+Changed:
+
+    tobisFetterBurger 
+    player.addPotionEffect(new PotionEffect(MobEffects.HEALTH_BOOST,150,3));
+    deleted PotionEffectHunger
+    
+
      
