@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:redstone_block",
+            "count": 3
+        },
+        {
+            "item": "minecraft:comparator",
+            "count": 1
+        },
+        {
+            "item": "modv1:modblock",
+            "count": 1
+        }
+    ],
+    "result": {
+        "item": "modv1:modblockfacing",
+        "count": 1
+    }
+}

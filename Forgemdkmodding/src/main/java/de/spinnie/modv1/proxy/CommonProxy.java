@@ -1,5 +1,6 @@
 package de.spinnie.modv1.proxy;
 
+
 import de.spinnie.modv1.init.ModBlocks;
 import de.spinnie.modv1.init.ModItems;
 import de.spinnie.modv1.init.ModSmelting;
@@ -20,6 +21,7 @@ public class CommonProxy {
 		MinecraftForge.EVENT_BUS.register(ModBlocks.class);
 		
 		GameRegistry.registerWorldGenerator(new ModWorldGeneration(), 0);
+		
 	}
 
 	public void init(FMLInitializationEvent event) {

@@ -34,6 +34,5 @@ public class ModModels {
 	private static void register(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0,
 				new ModelResourceLocation(item.getRegistryName(), "inventory"));
-
 	}
 }

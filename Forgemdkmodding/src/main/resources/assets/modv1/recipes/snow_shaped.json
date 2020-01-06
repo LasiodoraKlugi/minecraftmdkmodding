@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    " N ",
+    " Z "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:snow"
+    },
+    "N": {
+      "item": "minecraft:packed_ice"
+    },
+        "Z": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "modv1:modblock",
+    "count": 1
+  }
+}

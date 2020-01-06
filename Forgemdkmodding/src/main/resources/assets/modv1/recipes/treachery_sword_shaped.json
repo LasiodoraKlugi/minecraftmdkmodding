@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    " N ",
+    " Z "
+  ],
+  "key": {
+    "A": {
+      "item": "modv1:moditem"
+    },
+    "N": {
+      "item": "minecraft:diamond"
+    },
+        "Z": {
+      "item": "modv1:teleport"
+    }
+  },
+  "result": {
+    "item": "modv1:treacherys_sword",
+    "count": 1
+  }
+}

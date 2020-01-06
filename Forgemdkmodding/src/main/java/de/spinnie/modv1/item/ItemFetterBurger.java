@@ -27,8 +27,8 @@ public class ItemFetterBurger extends ItemFood{
             player.addPotionEffect(new PotionEffect(MobEffects.LEVITATION, 100, 2));
             player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 150, 4));
             player.addPotionEffect(new PotionEffect(MobEffects.GLOWING, 2500, 0));
-            player.addExperience(500);
-            player.addPotionEffect(new PotionEffect(MobEffects.HUNGER, 5000, 3));
+            player.addExperience(250);
+            player.addPotionEffect(new PotionEffect(MobEffects.HEALTH_BOOST,150,3));
 	}
 	@SideOnly(Side.CLIENT)
 	@Override

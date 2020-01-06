@@ -16,10 +16,15 @@ public class ModBlocks {
 	public static final BlockFirst modblock = new BlockFirst();
 	
 	public static final BlockModFacing modblockfacing = new BlockModFacing();
+	
+
+
 
 	public static void init() {
 		setName(modblock, "modblock");
 		setName(modblockfacing, "modblockfacing");
+		
+
 
 	}
 	
@@ -28,6 +33,9 @@ public class ModBlocks {
 		IForgeRegistry<Block> registry = event.getRegistry();
 		registry.register(modblock);
 		registry.register(modblockfacing);
+		
+
+
 	}
 
 	@SubscribeEvent
@@ -35,6 +43,9 @@ public class ModBlocks {
 		IForgeRegistry<Item> registry = event.getRegistry();
 		registry.register(new ItemBlock(modblock).setRegistryName(modblock.getRegistryName()));
 		registry.register(new ItemBlock(modblockfacing).setRegistryName(modblockfacing.getRegistryName()));
+		
+
+		
 		
 	}
 

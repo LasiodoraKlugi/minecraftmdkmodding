@@ -5,14 +5,14 @@
             "item": "minecraft:iron_ingot"
         },
         {
-            "item": "minecraft:iron_block"
+            "item": "minecraft:iron_ingot"
         },
         {
             "item": "minecraft:gold_ingot"
         }
     ],
     "result": {
-        "item": "minecraft:stone",
+        "item": "minecraft:apple",
         "data": 0,
         "count": 64
     }
