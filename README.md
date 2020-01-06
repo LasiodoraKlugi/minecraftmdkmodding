@@ -179,7 +179,8 @@ https://github.com/LasiodoraKlugi/Treachery-s-Steel-Bolter-by-Klugi
 
 Version 1.0.7 Ends
 
-********************************************************************************************************* ~Stand: 2.1.2020  
+********************************************************************************************************* ~Stand: 4.1.2020  
+
 Version 1.0.8 Starts
 
 Added crafting recipes:
@@ -194,5 +195,31 @@ Changed:
     player.addPotionEffect(new PotionEffect(MobEffects.HEALTH_BOOST,150,3));
     deleted PotionEffectHunger
     
+Version 1.0.8 Ends
 
-     
+********************************************************************************************************* ~Stand: 6.1.2020  
+
+Version 1.0.9 Starts
+
+Added new Item: Multitool
+Changed Facing Block -> now with button
+
+********************************************************************************************************* ~Stand: 2.1.2020  
+
+Version 1.0.10 Starts
+
+     1000 ticks zu 10
+
+    neues item multiool
+ 
+    50 zu 15 blöcke entfernen
+
+    entchantments
+
+    boots jumpboost
+
+    redstone eisblock mit knopf 10 ticks
+
+
+
+
