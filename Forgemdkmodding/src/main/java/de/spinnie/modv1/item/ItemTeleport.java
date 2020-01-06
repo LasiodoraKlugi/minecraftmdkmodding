@@ -31,9 +31,9 @@ public class ItemTeleport extends Item { // Erben von Klasse Item
 	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
 		ItemStack stack = playerIn.getHeldItem(handIn);
 		if (!worldIn.isRemote) { // Man ist nicht auf einer Slave World also Client Welt! = also Server Welt! Resourcen sparen
-			RayTraceResult result = rayTrace(playerIn, 50);		//auf 50 blöcke
+			RayTraceResult result = rayTrace(playerIn, 15);		//auf 10 blöcke
 			if(result.typeOfHit == Type.MISS) {
-				playerIn.sendStatusMessage(new TextComponentString("\u00A74Du kannst dich nur 50 Bloecke weit porten"), true);
+				playerIn.sendStatusMessage(new TextComponentString("\u00A74Du kannst dich nur 15 Bloecke weit porten"), true);
 				return new ActionResult<ItemStack>(EnumActionResult.FAIL, stack);
 			}
 			BlockPos pos = result.getBlockPos();

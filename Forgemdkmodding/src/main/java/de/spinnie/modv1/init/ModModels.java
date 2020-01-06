@@ -29,6 +29,8 @@ public class ModModels {
 	    register(Item.getItemFromBlock(ModBlocks.modblockfacing));
 	    
 	    register(ModItems.wrench);
+	    
+	    register(ModItems.multitool);
 	}
 
 	private static void register(Item item) {

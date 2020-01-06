@@ -3,6 +3,7 @@ package de.spinnie.modv1.init;
 import de.spinnie.modv1.ModConstants;
 import de.spinnie.modv1.item.ItemFetterBurger;
 import de.spinnie.modv1.item.ItemFirst;
+import de.spinnie.modv1.item.ItemMultitool;
 import de.spinnie.modv1.item.ItemPinkArmor;
 import de.spinnie.modv1.item.ItemTeleport;
 import de.spinnie.modv1.item.ItemTreacheryAxe;
@@ -44,6 +45,8 @@ public class ModItems {
     public static final ItemPinkArmor pinkLeggings = new ItemPinkArmor(pinkArmorMaterial, 2, EntityEquipmentSlot.LEGS); 
     public static final ItemPinkArmor pinkBoots = new ItemPinkArmor(pinkArmorMaterial, 3, EntityEquipmentSlot.FEET);
     
+    public static final ItemMultitool multitool = new ItemMultitool();
+    
     
    public static final ItemWrench wrench = new ItemWrench();
     
@@ -65,6 +68,8 @@ public class ModItems {
 		setName(pinkBoots,"pink_boots");
 		
 		setName(wrench,"wrench");
+		
+		setName(multitool,"multitool");
 	}
 
 	@SubscribeEvent
@@ -81,6 +86,8 @@ public class ModItems {
 		registry.registerAll(pinkHelmet, pinkChestplate, pinkLeggings, pinkBoots);
 		
 		registry.register(wrench);
+		
+		registry.register(multitool);
 	}
 
 	public static void setName(Item item, String name) {

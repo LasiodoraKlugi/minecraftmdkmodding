@@ -6,7 +6,10 @@ import de.spinnie.modv1.init.modv1Tabs;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemTreacherySword extends ItemSword{
 
@@ -28,5 +31,11 @@ public class ItemTreacherySword extends ItemSword{
 
         return multimap;
     }
+	@SideOnly(Side.CLIENT)
+	@Override
+	public boolean hasEffect(ItemStack stack) {    //sieht nun entchantet aus
+		return true;
+        
+	}
 }
 
